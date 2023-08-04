@@ -1,4 +1,62 @@
 # Machine Learning and Deep Learning Cheatsheet
+Table of Contents:
+
+1. [Introduction to Machine Learning](#introduction-to-machine-learning)
+   1.1 [Definition of Machine Learning](#definition-of-machine-learning)
+   1.2 [Types of Machine Learning](#types-of-machine-learning)
+   1.3 [Key Terminology](#key-terminology)
+
+2. [Machine Learning Algorithms](#machine-learning-algorithms)
+   2.1 [Linear Regression](#linear-regression)
+   2.2 [Logistic Regression](#logistic-regression)
+   2.3 [Decision Trees](#decision-trees)
+   2.4 [Random Forests](#random-forests)
+   2.5 [Support Vector Machines (SVM)](#support-vector-machines-svm)
+   2.6 [Naive Bayes](#naive-bayes)
+   2.7 [K-Nearest Neighbors (KNN)](#k-nearest-neighbors-knn)
+
+3. [Deep Learning](#deep-learning)
+   3.1 [Introduction to Deep Learning](#introduction-to-deep-learning)
+   3.2 [Artificial Neural Networks (ANN)](#artificial-neural-networks-ann)
+   3.3 [Convolutional Neural Networks (CNN)](#convolutional-neural-networks-cnn)
+   3.4 [Recurrent Neural Networks (RNN)](#recurrent-neural-networks-rnn)
+   3.5 [Long Short-Term Memory (LSTM)](#long-short-term-memory-lstm)
+   3.6 [Generative Adversarial Networks (GAN)](#generative-adversarial-networks-gan)
+   3.7 [Transfer Learning](#transfer-learning)
+
+4. [Evaluation Metrics](#evaluation-metrics)
+   4.1 [Classification Accuracy](#classification-accuracy)
+   4.2 [Logarithmic Loss](#logarithmic-loss)
+   4.3 [Confusion Matrix](#confusion-matrix)
+   4.4 [Area Under Curve (AUC)](#area-under-curve-auc)
+   4.5 [F1 Score](#f1-score)
+   4.6 [Mean Absolute Error (MAE)](#mean-absolute-error-mae)
+   4.7 [Mean Squared Error (MSE)](#mean-squared-error-mse)
+   4.8 [Inlier Ratio Metric](#inlier-ratio-metric)
+
+5. [Data Preprocessing](#data-preprocessing)
+   5.1 [Data Cleaning](#data-cleaning)
+   5.2 [Vectorization](#vectorization)
+   5.3 [Normalization](#normalization)
+   5.4 [Handling Missing Values](#handling-missing-values)
+
+6. [Feature Engineering](#feature-engineering)
+   6.1 [Definition of Feature Engineering](#definition-of-feature-engineering)
+   6.2 [Importance of Feature Engineering](#importance-of-feature-engineering)
+   6.3 [Feature Engineering Techniques for Machine Learning](#feature-engineering-techniques-for-machine-learning)
+   6.4 [Best tools for Feature Engineering](#best-tools-for-feature-engineering)
+
+7. [Model Evaluation and Validation](#model-evaluation-and-validation)
+   7.1 [Train-Test Split](#train-test-split)
+   7.2 [Cross-Validation](#cross-validation)
+   7.3 [Hyperparameter Tuning](#hyperparameter-tuning)
+   7.4 [Overfitting and Underfitting](#overfitting-and-underfitting)
+   7.5 [Bias-Variance Tradeoff](#bias-variance-tradeoff)
+
+8. [Model Deployment and Productionization](#model-deployment-and-productionization)
+   8.1 [Saving and Loading Models](#saving-and-loading-models)
+   8.2 [Model Deployment Options (APIs, Web Applications)](#model-deployment-options-apis-web-applications)
+   8.3 [Monitoring and Updating Models](#monitoring-and-updating-models)
 
 ## Introduction to Machine Learning
 
